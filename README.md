@@ -1,7 +1,8 @@
 # App de Cadastros de Guitarras!
 
 MBA Mobile Development - Professor Heider Lopes
-Trabalho de conclusão de curso da Disciplica de Android
+<br/>
+Trabalho de conclusão de curso da Disciplina de Android
 
 Integrantes
 
