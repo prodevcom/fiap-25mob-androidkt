@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MbaMobile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Customize your theme here. -->
+        <item name="toolbarStyle">@style/ToolbarGuitars</item>
+    </style>
+
+    <style name="ToolbarGuitars" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/ToolbarGuitars.Title</item>
+    </style>
+
+    <style name="ToolbarGuitars.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guitarras</string>
+
+    <!-- Tela inicial -->
+    <string name="empty_list">Para começar, clique no botão abaixo (+) e adicione sua primeira guitarra!</string>
+
+    <!--Login -->
+    <string name="login_lbl_email">E-mail</string>
+    <string name="login_lbl_password">Senha</string>
+    <string name="login_btn_login">Acessar</string>
+    <string name="login_btn_about">Sobre</string>
+    <string name="login_btn_signup">Cadastrar</string>
+    <string name="login_invalid_email">Email inválido</string>
+    <string name="login_invalid_password">Senha inválida</string>
+    <string name="login_invalid_credentials">Dados de login inválidos</string>
+
+    <!--Cadastro-->
+    <string name="register_lbl_password_check">Confirmar Senha</string>
+    <string name="register_btn">Registrar</string>
+    <string name="register_invalid_password_len">A senha deve ter no mínimo 8 caracteres</string>
+    <string name="register_invalid_password_check">Senhas não coincidem</string>
+    <string name="register_btn_pop">Voltar</string>
+
+    <!--Fragment de registro do guitarra -->
+    <string name="guitar_brand">Digite a marca do guitarra</string>
+    <string name="guitar_model">Digite o modelo do guitarra</string>
+    <string name="guitar_register">Salvar</string>
+    <string name="guitar_fragment">Guitarras</string>
+
+    <!--Registro do guitarra -->
+    <string name="crud_insert_success">Guitarra inserida com sucesso!</string>
+    <string name="crud_insert_error">Erro na inserção do guitarra!</string>
+    <string name="crud_page_title">Minhas Guitarras</string>
+    <string name="crud_update">Atualizar</string>
+    <string name="crud_update_success">Guitarra atualizada com sucesso!</string>
+    <string name="crud_delete">Apagar</string>
+    <string name="crud_delete_success">guitarra excluído com sucesso!</string>
+    <string name="crud_delete_error">Erro na exclusão do guitarra!</string>
+    <string name="crud_update_error">Erro na atualização do guitarra!</string>
+    <string name="modal_delete_confirm">Confirma exclusão?</string>
+    <string name="ok_dialog">Ok</string>
+    <string name="cancel_dialog">Cancelar</string>
+    <string name="crud_insert_missing">Preencha a Marca e Modelo</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guitars_navgraph"
+    app:startDestination="@id/guitarListFragment">
+
+    <fragment
+        android:id="@+id/guitarsFragment"
+        android:name="br.com.fiap25mob.mbamobile.presentation.guitars.GuitarsFragment"
+        android:label="@string/guitar_fragment"
+        tools:layout="@layout/fragment_guitars" >
+        <argument
+            android:name="guitars"
+            app:argType="br.com.fiap25mob.mbamobile.data.db.GuitarsEntity"
+            android:defaultValue="@null"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/guitarListFragment"
+        android:name="br.com.fiap25mob.mbamobile.presentation.guitarlist.GuitarListFragment"
+        android:label="@string/crud_page_title"
+        tools:layout="@layout/fragment_guitar_list" >
+        <action
+            android:id="@+id/action_guitarListFragment_to_guitarsFragment"
+            app:destination="@id/guitarsFragment" />
+    </fragment>
+</navigation>

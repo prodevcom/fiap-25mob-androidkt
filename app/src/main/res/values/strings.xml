@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">Guitars</string>
+
+    <!-- MainScreen -->
+    <string name="empty_list">To start, click on button bellow (+) and add you first Guitar!</string>
+
+    <!-- Login -->
+    <string name="login_lbl_email">Email</string>
+    <string name="login_lbl_password">Password</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_btn_about">About</string>
+    <string name="login_btn_signup">Sign Up</string>
+
+    <!-- SignUp Page -->
+    <string name="register_lbl_password_check">Confirm password</string>
+    <string name="register_btn">Register</string>
+    <string name="register_btn_pop">Return</string>
+
+    <!-- Errors -->
+    <string name="login_invalid_email">Invalid email</string>
+    <string name="login_invalid_password">Invalid password</string>
+    <string name="login_invalid_credentials">Invalid credentials</string>
+    <string name="register_invalid_password_len">Password must be at least 8 chars</string>
+    <string name="register_invalid_password_check">Passwords does not match</string>
+
+    <!-- Guitar Fragment -->
+    <string name="guitar_brand">Type the guitar brand</string>
+    <string name="guitar_model">Type the guitar model</string>
+    <string name="guitar_register">Salve</string>
+    <string name="guitar_fragment">Guitars</string>
+
+    <!-- Crud Guitar -->
+    <string name="crud_page_title">Guitar View</string>
+
+    <string name="crud_insert_success">Successfully registered guitar!</string>
+    <string name="crud_insert_missing">You must set Brand end Model</string>
+    <string name="crud_insert_error">Error when inserting guitar!</string>
+
+    <string name="crud_update">Update</string>
+    <string name="crud_update_success">Guitar successfully updated!</string>
+    <string name="crud_update_error">Error on update guitar!</string>
+
+    <string name="crud_delete">Delete</string>
+    <string name="crud_delete_success">Successfully deleted guitar!</string>
+    <string name="crud_delete_error">Error when deleting guitar!</string>
+
+    <string name="modal_delete_confirm">Confirm deletion?</string>
+    <string name="ok_dialog">Ok</string>
+    <string name="cancel_dialog">Cancel</string>
+
+
+</resources>
