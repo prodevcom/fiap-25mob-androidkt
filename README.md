@@ -9,5 +9,5 @@ Integrantes
 <li>Marcelo Mussi
 <li>Tiago Vaz
 <li>Flavio Caruso
-<li>Marinaldo Ferrera
+<li>Marinaldo Ferreira
 
